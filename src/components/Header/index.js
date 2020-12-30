@@ -8,7 +8,7 @@ export default (props) => (
         <Box display='flex' justifyContent='space-between'>
           <Typography variant="h5">Opening Job Listing</Typography>
           <Button onClick={props.openNewJobModal} variant='contained' color='primary' disableElevation>
-            Post a job
+            post job
           </Button>
         </Box>
       </Grid>
