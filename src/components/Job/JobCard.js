@@ -3,7 +3,8 @@ import { Box, Grid, Typography, Button, makeStyles } from '@material-ui/core';
 import { differenceInMinutes } from 'date-fns';
 const useStyles = makeStyles((theme) => ({
   wrapper: {
-    border: '1px solid #e8e8e8',
+    // border: '1px solid #e8e8e8',
+  border: '2px solid #e8e8e8',
     cursor: 'pointer',
     transition: '.3s',
 
