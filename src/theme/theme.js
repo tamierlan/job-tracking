@@ -18,7 +18,8 @@ export default createMuiTheme({
   overrides: {
     MuiDialogActions: {
       root: {
-        padding: "8px 24px 16px 24px",
+      padding: "2px 2px 26px 23px",
+        // padding: "8px 24px 16px 24px",
       },
     },
     MuiButton: {
