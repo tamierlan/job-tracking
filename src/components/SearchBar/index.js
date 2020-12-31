@@ -34,8 +34,8 @@ export default (props) => {
   return (
     <Box p={2} mt={-5} mb={2} className={classes.wrapper}>
       <Select onChange={handleChange} value={jobSearch.type} name='type' variant='filled' disableUnderline>
-        <MenuItem value='Full time'>Part time</MenuItem>
-        <MenuItem value='Part time'>Full time</MenuItem>
+        <MenuItem value='Full time'>Full time</MenuItem>
+        <MenuItem value='Part time'>Part time</MenuItem>
         <MenuItem value='Contact'>Contact</MenuItem>
       </Select>
       <Select onChange={handleChange} value={jobSearch.location} name='location' variant='filled' disableUnderline>
