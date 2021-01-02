@@ -17,8 +17,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.primary.main,
     padding: theme.spacing(0.75),
     borderRadius: '5px',
-    // display: 'inline-block',
-    display: 'flex',
+    display: 'inline-block',
     fontWeight: 600
   },
   skillChip: {
@@ -26,8 +25,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(0.75),
     fontSize: '14.5px',
     borderRadius: '5px',
-    // fontWeight: 600,
-    fontWeight: 400,
+    fontWeight: 600,
     backgroundColor: theme.palette.secondary.main,
     color: '#fff'
   }
