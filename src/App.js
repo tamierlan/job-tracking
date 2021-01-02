@@ -76,8 +76,7 @@ export default () => {
                     <Box my={2} display='flex' justifyContent='flex-end'>
                       <Button onClick={fetchJobs}>
                         <CloseIcon size={20} />
-                        // Custom Search
-                        Search custom
+                        Custom Search
                       </Button>
                     </Box>
                   }
