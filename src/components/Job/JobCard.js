@@ -4,7 +4,6 @@ import { differenceInMinutes } from 'date-fns';
 const useStyles = makeStyles((theme) => ({
   wrapper: {
     border: '1px solid #e8e8e8',
-  // border: '2px solid #e8e8e8',
     cursor: 'pointer',
     transition: '.3s',
 
@@ -18,7 +17,8 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.primary.main,
     padding: theme.spacing(0.75),
     borderRadius: '5px',
-    display: 'inline-block',
+    // display: 'inline-block',
+    display: 'flex',
     fontWeight: 600
   },
   skillChip: {
@@ -26,7 +26,8 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(0.75),
     fontSize: '14.5px',
     borderRadius: '5px',
-    fontWeight: 600,
+    // fontWeight: 600,
+    fontWeight: 400,
     backgroundColor: theme.palette.secondary.main,
     color: '#fff'
   }
