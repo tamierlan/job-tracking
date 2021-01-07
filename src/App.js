@@ -78,7 +78,6 @@ export default () => {
                         <CloseIcon size={20} />
                         Custom Search
                       </Button>
-                      new addments
                     </Box>
                   }
                   {jobs.map(job => <JobCard open={() => setViewJob(job)} key={job.id} {...job} />)}
