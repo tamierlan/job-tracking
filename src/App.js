@@ -68,6 +68,7 @@ export default () => {
             <SearchBar fetchJobsCustom={fetchJobsCustom} />
             {
               loading
+              'hey tommy'
               ?
                 <Box display='flex' justifyContent='center'><CircularProgress /></Box>
               :
